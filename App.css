@@ -1,0 +1,66 @@
+.container{
+  width:900px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  background-color: navajowhite;
+  border: 1px solid black;
+}
+.calc{
+  padding: 10px;
+  border-width: 1px;
+  border-radius: 5px;
+  margin-left:300px;
+  margin-right: auto;
+  margin-top: 10px;
+  background-color: wheat;
+}
+form input{
+  border:1px;
+  outline: 1;
+  width: 60px;
+  height: 60px;
+  margin-left: 300px;
+  margin-right: 300px;
+  font-size: 12px;
+  background-color: cadetblue;
+  border-radius: 5px;
+  border-collapse: 1px ;
+  color: black;
+  margin:1px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+form input[type=button]:hover{
+  background-color: rgb(240, 116, 178);
+}
+form.display{
+  
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+}
+form .display input[type=text]{
+
+ text-align: right;
+ width: 250px;
+ font-size: 20px;
+ color: white;
+ height: 40px;
+ background-color: black;
+  margin: 5px 0px;
+}
+form input.equal{
+  width: 122px;
+}
+h1{
+ 
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  text-align: center;
+  margin: 5px 0px;
+  margin-top: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
